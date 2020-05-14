@@ -68,7 +68,7 @@ public class ControlPanel extends JPanel {
            method.invoke(component,text);
            
    
-   }catch(NoSuchMethodException|InvocationTargetException e)
+   }catch(NoSuchMethodException|InvocationTargetException|IllegalAccessException e)
    {e.printStackTrace();}
    
    
